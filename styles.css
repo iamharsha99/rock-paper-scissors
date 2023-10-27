@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: white;
+
+}
+.box
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 90%;
+
+}
+p
+{
+    margin: 5px;
+    font-size: medium;
+}
+.inner-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+}
+.images
+{
+    display: flex;
+}
+.user
+{
+    text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00;
+    filter: drop-shadow(5px 5px 5px #00FF00);
+
+
+}
+.comp{
+    text-shadow: 0 0 10px #FF0066, 0 0 20px #FF0066, 0 0 30px #FF0066;
+    filter: drop-shadow(5px 5px 5px #FF0066);
+    
+
+}
+img
+{
+    height: 18vw;
+    width: 18vw;
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+    width: max-content;
+}
+.choice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 5px;
+
+}
+.choice >img{
+    height: 12vw;
+    width: 12vw;
+}
+.options>*:hover{
+    transform: scale(1.01);
+    filter: drop-shadow(5px 5px 5px #0077B3);
+    transition:ease-in-out 0.2s;
+ 
+
+}
+h1
+{
+    text-align: center;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px #0077B3, 0 0 20px #0077B3, 0 0 30px #0077B3;
+}
+h4{
+    text-align: center;
+    margin-bottom: 0;
+}
+h6
+{
+    text-align: center;
+    font-size: 1vw;
+
+}
+@media (max-width:1450px) {
+    
+   
+    img
+{
+    height: 25vw;
+    width: 25vw;
+}
+.choice >img{
+    height: 18vw;
+    width: 18vw;
+}
+}
